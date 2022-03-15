@@ -1,0 +1,16 @@
+.component {
+  display: flex;
+  gap: 12px;
+  align-items: flex-end;
+  justify-content: flex-end;
+  .viewButton {
+    cursor: pointer;
+    padding: 12px;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 12px;
+    &:hover {
+      background-color: rgb(250, 202, 112);
+    }
+  }
+}

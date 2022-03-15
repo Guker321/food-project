@@ -1,0 +1,10 @@
+.component {
+  background-color: orange;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  gap: 120px;
+  .title {
+    margin: 0;
+  }
+}
