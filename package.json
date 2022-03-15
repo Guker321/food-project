@@ -35,15 +35,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "ff-lint",
-    "lint:style": "ff-lint --style",
-    "generate": "ff-generate"
-  },
-  "eslintConfig": {
-    "extends": [
-      "./node_modules/@ff/linting/lib/eslint.config.js"
-    ]
+    "eject": "react-scripts eject"
   },
   "browserslist": {
     "production": [
@@ -55,17 +47,6 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.(ts|tsx)": [
-      "ff-lint --fix",
-      "git add"
     ]
   }
 }
